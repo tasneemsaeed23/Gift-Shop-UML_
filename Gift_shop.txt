@@ -1,0 +1,9 @@
+-
+
+This code shows the gift shop system, which contains a group of classes such as gifts, category, section..etc.  Each class contains a definition of variables, a constructor, and a set of method setter and getter. The main objective of this code is to explain the implementation of the Association, Aggregation and composition relationships.
+
+Association: is a relationship between two classes that are set up through their object. This is implemented between the "payment" class and the "order" class and is used inside the order constructor. 
+
+Aggregation: is a special form of association. It is a relationship between two classes like association, however it's a directional association, which means it is strictly a one-way association. It represents a HAS-A relationship. This is implemented between the "gift" class and the "order" class, by defining an instance of the gift class within the order class.
+
+Composition: Here the linked objects are dependent on each other. This was implemented through the 'category' and 'department ' classes.  The category is part of the department. When the department is deleted, the category is automatically deleted. An instance of the category class is defined inside the department class and a place is reserved in it.
